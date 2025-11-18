@@ -6,7 +6,7 @@
   This is task is <%= @task.completed ? "completed" : "not completed yet" %>
 </div>
 
-<div>
+<div class="task-container">
   <%= link_to "Edit task", edit_task_path(@task), class: "btn btn-primary" %>
   <%= link_to "Back to list", tasks_path, class: "btn btn-primary" %>
 </div>
